@@ -22,7 +22,7 @@ printf("\npreOrder\n" );
    inOrder( b.root );
 
    // traverse the tree postOrder
- printf("\npostnOrder\n" );   postOrder( b.root );
+ printf("\npostOrder\n" );   postOrder( b.root );
 
     printf("\n");
  
