@@ -98,8 +98,8 @@ void preOrder(TreeNodePtr treePtr){
 void postOrder(TreeNodePtr treePtr){
 
    if ( treePtr != NULL ) {     
-      preOrder(treePtr->leftPtr);
-      preOrder(treePtr->rightPtr);
+      postOrder(treePtr->leftPtr);
+      postOrder(treePtr->rightPtr);
       printf("%3d",treePtr->data);  //print the value 
    }
 }
