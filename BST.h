@@ -110,9 +110,9 @@ void printTree(TreeNodePtr treePtr, int count){
       count++;
       printTree(treePtr->rightPtr, count);
       
-      for(int i=0; i<count;i++) printf("     ");
+      for(int i=0; i<count-1;i++) printf("   ");
 
-      printf("%d\n",treePtr->data);
+      printf("%3d\n",treePtr->data);
       
       printTree(treePtr->leftPtr, count);
 
